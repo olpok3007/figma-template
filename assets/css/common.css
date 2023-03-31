@@ -49,6 +49,11 @@
   margin: 0 auto;
 }
 
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* планшети */
 @media screen and (min-width: 576px) {
   :root {
