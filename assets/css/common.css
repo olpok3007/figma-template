@@ -17,9 +17,10 @@
 }
 
 .big-heading {
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 1.45;
   color: var(--heading-color);
+  margin-bottom: 2.5rem;
 }
 
 .small-heading {
@@ -45,9 +46,11 @@
 
 .btn {
   background-color: var(--accent-color);
+  border:none;
   color: var(--accent-text-color);
-  letter-spacing: 10%;
+  letter-spacing: 0.1rem;
   padding: 25px 41px;
+  margin-top: 2.5rem;
 }
 
 .container {
@@ -88,6 +91,10 @@
 
   .small-heading {
     margin-bottom: 3rem;
+  }
+
+  .big-heading {
+    font-size: 3rem;
   }
 }
 
