@@ -1,5 +1,12 @@
-@import './reset.css';
-@import './common.css';
-@import './header.css';
-@import './about-me.css';
-@import './greeting-screen.css';
+@import "./reset.css";
+@import "./common.css";
+@import "./header.css";
+@import "./about-me.css";
+@import "./greeting-screen.css";
+@import url(./article.css);
+@import url(./my-skiills.css);
+@import url(./rectangle-9.css);
+@import url(./projecs.css);
+@import url(./clients.css);
+@import url(./form.css);
+@import url(./footer.css);

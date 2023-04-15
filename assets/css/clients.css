@@ -1,0 +1,8 @@
+.clients {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.clients-img {
+  width: 100%;
+  margin: 150px 0;
+}
