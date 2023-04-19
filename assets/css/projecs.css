@@ -6,16 +6,19 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  /* align-items: center; */
-  position: relative;
   max-width: 100%;
 }
 .img-icon::after {
-  content: url(../icon/Group1.png);
-  position: absolute;
-  top: 3rem;
 }
 .img-after {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-after::before {
+  content: url(../icon/Group1.png);
+  position: absolute;
 }
 
 /* планшети */
@@ -33,7 +36,4 @@
   .container {
     max-width: 1140px;
   }
-}
-
-@media screen and {
 }
